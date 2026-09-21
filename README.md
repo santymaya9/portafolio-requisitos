@@ -9,9 +9,18 @@ Repositorio con los artefactos construidos en el curso de Ingeniería de Requisi
 | Carpeta | Contenido | Metadatos |
 |---|---|---|
 | [`caso1-aerea/`](caso1-aerea) | Academia de Operaciones Aéreas: Product Vision Board, Product Backlog, 6 RFC e Impact Mapping | [`METADATOS.md`](caso1-aerea/METADATOS.md) |
-| [`caso2-simulador/`](caso2-simulador) | Simulador de conducción: SRS del módulo de transmisión mecánica | [`METADATOS.md`](caso2-simulador/METADATOS.md) |
+| [`caso2-simulador/`](caso2-simulador) | Simulador de conducción: SRS del módulo de transmisión mecánica y documento de Test Case | [`METADATOS.md`](caso2-simulador/METADATOS.md) |
 | [`caso3-dietas/`](caso3-dietas) | Dietas al día: prototipo (código), documento de validación, pruebas | [`METADATOS.md`](caso3-dietas/METADATOS.md) |
 | [`trazabilidad/`](trazabilidad) | Script generador, plantilla y **`Matriz_de_trazabilidad.xlsx`** | — |
+| [`LECCIONES_APRENDIDAS.md`](LECCIONES_APRENDIDAS.md) | Informe de lecciones aprendidas (U4A2, Misión 11) | Ficha dentro del documento |
+
+## Si llegas por primera vez
+
+1. **Necesidades y requisitos:** `caso1-aerea/` (Vision Board y Backlog), `caso2-simulador/` (SRS) y `caso3-dietas/docs/Documento_de_validacion.md` (épica EPC28 dividida en RF-A1 a RF-A5 y RNF-1, con prioridad).
+2. **Implementación y validación:** `caso3-dietas/src/` (código, cada función etiquetada con el requisito que cubre) y `caso3-dietas/tests/` (pruebas).
+3. **Cadena de trazabilidad:** abre `trazabilidad/Matriz_de_trazabilidad.xlsx`. La hoja «Matriz principal» une cada requisito con su código y sus pruebas; «Auditoría» muestra dónde se rompe la cadena.
+4. **Gestión de cambios:** las seis RFC y el Impact Mapping están en `caso1-aerea/`.
+5. **Aprendizajes:** [`LECCIONES_APRENDIDAS.md`](LECCIONES_APRENDIDAS.md).
 
 ## Cómo se cumple cada criterio de la rúbrica
 
